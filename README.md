@@ -1,9 +1,12 @@
-# DevOps Capstone Template
+# devops-capstone-project
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
 
-This repository contains the starter code for the project in [**IBM-CD0285EN-SkillsNetwork DevOps Capstone Project**](https://www.coursera.org/learn/devops-capstone-project?specialization=devops-and-software-engineering) which is part of the [**IBM DevOps and Software Engineering Professional Certificate**](https://www.coursera.org/professional-certificates/devops-and-software-engineering)
+This repository contains the Customer Accounts microservice project developed as part of the **DevOps Capstone Project** within the **IBM DevOps and Software Engineering Professional Certificate**.
+
+## Project Overview
+The Customer Accounts microservice provides RESTful APIs for managing user accounts on an e-commerce platform. It features full CRUD operations (Create, Read, Update, Delete, List) backed by a PostgreSQL database, developed using Test-Driven Development (TDD) with over 95% test coverage, secured with Talisman security headers and CORS policies, containerized with Docker, automated via GitHub Actions CI and Tekton CD pipelines, and deployed to Red Hat OpenShift / Kubernetes.
 
 ## Usage
 
